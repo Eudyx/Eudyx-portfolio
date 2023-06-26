@@ -15,7 +15,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav className='navbar'>
+    <nav className='navbar container'>
         <div className='container menu-container'>
           <div className='eudyx'>
               <Link 
@@ -23,7 +23,7 @@ const Navbar = () => {
               className='home eudyx'
               to='home' spy={true}
               smooth={true}
-              duration={500}
+              duration={1000}
               offset={-130}
               >Eudyx</Link>
           </div>
@@ -33,7 +33,7 @@ const Navbar = () => {
               className='home'
               to='home' spy={true}
               smooth={true}
-              duration={500}
+              duration={1000}
               offset={-130}
               onClick={(e) => disable()}
               >
@@ -46,7 +46,7 @@ const Navbar = () => {
               className='about-me'
               to='about-me' spy={true}
               smooth={true}
-              duration={500}
+              duration={1000}
               offset={-130}
               onClick={(e) => disable()}
               >
@@ -59,7 +59,7 @@ const Navbar = () => {
               className='skills'
               to='skills' spy={true}
               smooth={true}
-              duration={500}
+              duration={1000}
               offset={-130}
               onClick={(e) => disable()}
               >
@@ -72,7 +72,7 @@ const Navbar = () => {
               className='portfolio'
               to='portfolio' spy={true}
               smooth={true}
-              duration={500}
+              duration={1000}
               offset={-130}
               onClick={(e) => disable()}
               >
@@ -85,7 +85,7 @@ const Navbar = () => {
               className='contact'
               to='contact' spy={true}
               smooth={true}
-              duration={500}
+              duration={1000}
               offset={-130}
               onClick={(e) => disable()}
               >
